@@ -10,4 +10,5 @@ public class CreatureSO : ScriptableObject
     public int deaths = 0;
     public int doubleJump = 0;
 
+    public string sceneLoad = "";
 }

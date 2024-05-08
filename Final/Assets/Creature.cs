@@ -16,7 +16,8 @@ public class Creature : MonoBehaviour
     [SerializeField] Vector3 homePosition = Vector3.zero;
     [SerializeField] int dJumpUnlock = 0;
     [SerializeField] public int dJumpnum = 0;
-    
+    [SerializeField] public string level;
+
     [Header("Physics")]
     [SerializeField] LayerMask groundMask;
     [SerializeField] float jumpOffset = -.5f;
@@ -29,7 +30,7 @@ public class Creature : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-
+        this.level = creatureSO.sceneLoad;
         rb = GetComponent<Rigidbody2D>();
         if(creatureSO != null){
             if(creatureSO.doubleJump == 1){

@@ -14,7 +14,9 @@ public class Coin : MonoBehaviour
 
         if(other.GetComponent<Creature>() != null){
             other.GetComponent<Creature>().pickupcoin();
+            DontDestroyOnLoad(this.gameObject);
             Destroy(this.gameObject);
+            
         }
 
     }

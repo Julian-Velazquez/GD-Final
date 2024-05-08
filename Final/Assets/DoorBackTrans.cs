@@ -3,14 +3,14 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class sceneTransistor : MonoBehaviour
+public class DoorBackTransition : MonoBehaviour
 {
-[SerializeField] CreatureSO creature;
+    [SerializeField] CreatureSO creature;
     void OnTriggerEnter2D(Collider2D other){
 
         if(other.GetComponent<Creature>() != null){
-             SceneManager.LoadScene("Ruin1"); 
-             creature.sceneLoad = "Ruin1"; 
+             SceneManager.LoadScene("Treasure1"); 
+             creature.sceneLoad = "Door1";   
         }
 
     

@@ -20,4 +20,19 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Treasure1.unity
     guid: 98cd451478da68d48843d94e503558f8
+  - enabled: 1
+    path: Assets/Scenes/Door1.unity
+    guid: 3005762e199e76044aa606d8b7ce3a4a
+  - enabled: 1
+    path: Assets/Scenes/Ruin2.unity
+    guid: 6e07c5ab8cc48404baa1d7e851ff2417
+  - enabled: 1
+    path: Assets/Scenes/Puzzle2.unity
+    guid: e07a797467a776e49bf591246374cc2b
+  - enabled: 1
+    path: Assets/Scenes/Ruin3.unity
+    guid: 6d18eebbb0a440346b7949b4f2fdeb03
+  - enabled: 1
+    path: Assets/Scenes/Treasure2.unity
+    guid: a87ac18b5bf97b2418d9f2be28f790d2
   m_configObjects: {}
